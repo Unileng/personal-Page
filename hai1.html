@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>个人学术主页</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+      color: black;
+    }
+    h1, h2, h3 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    a {
+      color: blue;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .highlight {
+      color: red;
+      font-weight: bold;
+    }
+    img {
+      max-width: 150px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    .hero {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+    }
+    .hero-left {
+      flex: 0 0 150px;
+    }
+    .hero-right {
+      flex: 1;
+    }
+    section {
+      margin-top: 30px;
+    }
+    .chips{display:flex; flex-wrap:wrap; gap:8px; margin-top:14px}
+    .chip{padding:4px 10px; border-radius:999px; background: #e0d12caa; border:1px solid #085b1373; font-size:12px; color:#000000}
+
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <div class="hero-left">
+      <img src="./27041755582704_.pic_hd.jpg">
+    </div>
+    <div class="hero-right">
+      <h1>海秋茹</h1>
+      <p> 邮箱:  <a>hai97072021@163.com</a></p> 
+        <div class="chips">
+            <span class="chip">研究方向1</span>
+            <span class="chip">研究方向2</span>
+            <span class="chip">研究方向3</span>
+          </div>
+      <p>我的研究兴趣包括计算机视觉、图神经网络与多模态学习。曾在 AAAI、CVPR 等顶会发表论文，</p>
+    </div>
+  </div>
+
+  <section>
+    <h2>Education</h2>
+    <ul>
+      <li>Ph.d, Computer Science and Technology, Beijing University of Technology, 2023-2027 (expected).  </li>
+      <li>M.E., Computer Application Technology, Beijing Wuzi University, 2020-2023.    </li>
+      <li>B.E., Internet of Things Engineering, Henan University of Engineering, 2015-2019. </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>publication</h2>
+    <ul>
+      <li>CFDM: Contrastive Fusion and Disambiguation for Multi-View Partial-Label Learning <a href="https://ojs.aaai.org/index.php/AAAI/article/view/33869"> </a></li>
+      <li>CODE <a href="#"></a>. ACL, 2022.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>News</h2>
+    <ul>
+      <li>2025-08: 我的一篇论文被 <span class="highlight">NeurIPS 2025</span> 接收。</li>
+      <li>2025-05: 在北京大学举办的 AI 前沿论坛上做了 <a href="#">邀请报告</a>。</li>
+      <li>2024-12: 获得国家奖学金。</li>
+    </ul>
+  </section>
+
+</body>
+</html>
